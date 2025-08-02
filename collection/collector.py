@@ -11,7 +11,7 @@ GPIO.setmode(GPIO.BOARD)
 pin_to_circuit = 7
 
 # Define the directory to save files
-save_directory = os.path.expanduser("~/Desktop/lake")
+save_directory = os.path.expanduser("/home/pi/Desktop/lake")
 
 # Ensure the directory exists
 os.makedirs(save_directory, exist_ok=True)
